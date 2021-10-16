@@ -19,12 +19,14 @@
 
 <body>
     <div id="main " class="container-fluid">
-        <div id="banner"></div>
+        <div id="banner">
+            <div class="banner"></div>
+        </div>
         <div id="header">
             <ul id="nav">
                 <li><a href="#">Trang Chủ</a></li>
                 <li>
-                    <a href="#">Giới Thiệu </i></a>
+                    <a href="#">Giới Thiệu <i class="nav-icon fa fa-angle-down" aria-hidden="true"></i></a>
                     <ul class="sub-nav">
                         <li><a href="">Ban giám đốc</a></li>
                         <li><a href="">Nhân sự KHCN</a></li>
@@ -33,7 +35,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Bộ phận chuyên môn </a>
+                    <a href="#">Bộ phận chuyên môn <i class="nav-icon fa fa-angle-down" aria-hidden="true"></i></a>
                     <ul class="sub-nav">
                         <li><a href="">Bộ môn Hoa cây cảnh</a></li>
                         <li><a href="">Bộ môn Động vật cảnh</a></li>
@@ -84,30 +86,34 @@
 
         <script>
             var slideIndex = 1;
-                showSlides(slideIndex);
-            
+            showSlides(slideIndex);
+
             function plusSlides(n) {
                 showSlides(slideIndex += n);
             }
-                        
+
             function currentSlide(n) {
-            showSlides(slideIndex = n);
+                showSlides(slideIndex = n);
             }
-                        
+
             function showSlides(n) {
                 var i;
                 var slides = document.getElementsByClassName("mySlides");
                 var dots = document.getElementsByClassName("dot");
-                if (n > slides.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = slides.length}
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
                 for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
+                    slides[i].style.display = "none";
                 }
                 for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
+                    dots[i].className = dots[i].className.replace(" active", "");
                 }
-                slides[slideIndex-1].style.display = "block";  
-                dots[slideIndex-1].className += " active";
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
             }
         </script>
 
@@ -132,7 +138,7 @@
                         <h3 class="post-title">Cây hoa đỗ quyên</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
                         </div>
@@ -143,7 +149,7 @@
                         <h3 class="post-title">Cây hoa Tuy líp</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
                         </div>
@@ -154,7 +160,7 @@
                         <h3 class="post-title">Cây hoa hải đường</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
                         </div>
@@ -173,10 +179,10 @@
                         <h3 class="post-title">Tép Thủy Sinh</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
-                        </div>                    
+                        </div>
                     </div>
 
                     <div class="post-item">
@@ -184,7 +190,7 @@
                         <h3 class="post-title">Cá Chọi</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
                         </div>
@@ -195,7 +201,7 @@
                         <h3 class="post-title">Cá vàng Ranchu</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
                         </div>
@@ -214,7 +220,7 @@
                         <h3 class="post-title">Chim Yến Phụng</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
                         </div>
@@ -225,7 +231,7 @@
                         <h3 class="post-title">Vịt Uyên Ương</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
                         </div>
@@ -236,7 +242,7 @@
                         <h3 class="post-title">Chim Bồ Câu</h3>
                         <div class="post-price">
                             <a href="#">Giá: Liên hệ</a>
-                        </div>                        
+                        </div>
                         <div class="post-category">
                             <a href="#"> ĐỌC TIẾP</a>
                         </div>
@@ -278,10 +284,10 @@
                     <div class="col-md-6">
                         <h5>VIỆN SINH VẬT CẢNH</h5>
                         <hr class="light">
-                            <p>Địa chỉ: Học viện Nông nghiệp Việt Nam - Trâu Quỳ - Gia Lâm - Hà Nội.</p>
-                            <p>Website: <a href="https://ioos.vnua.edu.vn" target="_blank">https://www.facebook.com/ioos.vnua.edu.vn</a></p>
-                            <p>Email: <a href="sinhvatcanh@vnua.edu.vn" target="_blank">sinhvatcanh@vnua.edu.vn</a></p>
-                            <p>Điện thoại:</p>
+                        <p>Địa chỉ: Học viện Nông nghiệp Việt Nam - Trâu Quỳ - Gia Lâm - Hà Nội.</p>
+                        <p>Website: <a href="https://ioos.vnua.edu.vn" target="_blank">https://www.facebook.com/ioos.vnua.edu.vn</a></p>
+                        <p>Email: <a href="sinhvatcanh@vnua.edu.vn" target="_blank">sinhvatcanh@vnua.edu.vn</a></p>
+                        <p>Điện thoại:</p>
                         <div class="container-fluid padding">
                             <div class="row text-center padding">
                                 <div class="col-12 social padding">
@@ -301,5 +307,5 @@
         </footer>
     </div>
 </body>
-    
+
 </html>
