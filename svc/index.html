@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="vie">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="description" content="Personal Portfolio Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <title>Viện Sinh vật cảnh</title>
+</head>
+
+<body>
+    <div id="main" class="container-fluid">
+        <div id="banner"></div>
+        <div id="header">
+            <nav class="nav">
+                <ul id="main-menu">
+                    <li><a class="nav-link active" href="#">TRANG CHỦ</a></li>
+                    <li><a class="nav-link" href="#">GIỚI THIỆU</a>
+                        <ul class="sub-menu">
+                            <li><a class="nav-link" href="#">Giới thiệu</a></li>
+                            <li><a class="nav-link" href="#">Ban giám đốc</a></li>
+                            <li><a class="nav-link" href="#">Nhân sự KHCN</a></li>
+                            <li><a class="nav-link" href="#">Chức năng, nhiệm vụ</a></li>
+                            <li><a class="nav-link" href="#">Quy chế tổ chức</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link" href="#">BỘ PHẬN CHUYÊN MÔN</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Bộ môn Hoa cây cảnh</a></li>
+                            <li><a href="#">Bộ môn Động vật cảnh</a></li>
+                            <li><a href="#">Bộ môn Sinh vật cảnh thủy sinh</a></li>
+                            <li><a href="#">Phòng Thị trường, đào tạo và chuyển giao</a></li>
+                            <li><a href="#">Phòng hành chính, kế toán</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link" href="#">NGHIÊN CỨU VÀ CHUYỂN GIAO</a></li>
+                    <li><a class="nav-link" href="#">ĐÀO TẠO VÀ BỒI DƯỠNG</a></li>
+                    <li><a class="nav-link" href="#">HỢP TÁC VỚI LIÊN KẾT</a></li>
+                    <li><a class="nav-link" href="#">DỊCH VỤ KHCN</a></li>
+                    <li><a class="nav-link" href="#">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+            
+            <label for="nav-mobile-input" class="toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <input type="checkbox" hidden name="" class="nav-input" id="nav-mobile-input">
+
+            <label for="nav-mobile-input" class="nav-overlay"></label>
+
+            <nav class="nav-mobile">
+                <label for="nav-mobile-input" class="nav-mobile-close">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                </label>
+                    <ul class="main-mobile-menu">
+                        <li><a class="nav-link active" href="#">TRANG CHỦ</a></li>
+                            <div class="nav-header active">
+                                <div class="nav-header-item">
+                                    <li><a class="nav-link" href="#">GIỚI THIỆU</a>
+                                        <i class=" arrow fal fa-sort-up"></i>
+                                    </li>
+                                </div>
+                                <div class="nav-header-body">
+                                    <li><a class="nav-link" href="#">Giới thiệu</a></li>
+                                    <li><a class="nav-link" href="#">Ban giám đốc</a></li>
+                                    <li><a class="nav-link" href="#">Nhân sự KHCN</a></li>
+                                    <li><a class="nav-link" href="#">Chức năng, nhiệm vụ</a></li>
+                                    <li><a class="nav-link" href="#">Quy chế tổ chức</a></li>
+                                </div>  
+                            </div>
+                            <div class="nav-header active">   
+                                <div class="nav-header-item">
+                                    <li><a class="nav-link" href="#">BỘ PHẬN CHUYÊN MÔN</a>
+                                        <i class=" arrow fal fa-sort-up"></i>
+                                    </li>
+                                </div>
+                                <div class="nav-header-body">
+                                    <li><a class="nav-link" href="#">Bộ môn Hoa cây cảnh</a></li>
+                                    <li><a class="nav-link" href="#">Bộ môn Động vật cảnh</a></li>
+                                    <li><a class="nav-link" href="#">Bộ môn Sinh vật cảnh thủy sinh</a></li>
+                                    <li><a class="nav-link" href="#">Phòng Thị trường, đào tạo và chuyển giao</a></li>
+                                    <li><a class="nav-link" href="#">Phòng hành chính, kế toán</a></li>
+                                </div>
+                            </div>
+                        <li><a href="#">NGHIÊN CỨU VÀ CHUYỂN GIAO</a></li>
+                        <li><a href="#">ĐÀO TẠO VÀ BỒI DƯỠNG</a></li>
+                        <li><a href="#">HỢP TÁC VỚI LIÊN KẾT</a></li>
+                        <li><a href="#">DỊCH VỤ KHCN</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+            </nav>
+        </div> 
+        <script>
+            $(document).ready(function(){
+                $('.sub-menu').parent('li').addClass('has-child');
+                $('.nav-header-item').click(function(){
+                    $(this).parent().toggleClass('active');
+                    $(this).parent().children('.nav-header-body').slideToggle();
+                });
+            });
+        </script>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <div class="mySlides ">
+                <img src="assets/img/anh3.png">
+            </div>
+
+            <div class="mySlides">
+                <img src="assets/img/anh1.png">
+            </div>
+
+            <div class="mySlides">
+                <img src="assets/img/anh2.png">
+            </div>
+
+            <div class="mySlides">
+                <img src="assets/img/anh4.png">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+                showSlides(slideIndex);
+            
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+                        
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+                        
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
+
+
+
+
+        <content>
+            <div class="infor">
+                <h4>VỀ CHÚNG TÔI</h4>
+                <hr>
+                <p>Ngày 26 tháng 04 năm 2021, Viện Sinh vật cảnh (Institute of Ornamental Oganism Science – IOOS) được thành lập theo Quyết định số 1899/QĐ-HVN của Giám đốc Học viện Nông nghiệp Việt Nam. <a href="#" class="post-infor">Xem thêm</a> </p>
+            </div>
+            <div class="content">
+                <h4>HOA CÂY CẢNH</h4>
+                <hr>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <img src="assets/img/doquyen.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Cây hoa đỗ quyên</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12 ">
+                            <img src="assets/img/tulip.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Cây hoa Tuy líp</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <img src="assets/img/haiduong.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Cây hoa hải đường</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content"> 
+                    <h4>SINH VẬT CẢNH THỦY SINH</h4>
+                    <hr>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-12 ">
+                            <img src="assets/img/tep.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Tép thủy sinh</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12 ">
+                            <img src="assets/img/cachoi.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Cá chọi</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12 ">
+                            <img src="assets/img/ranchu.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Cá vàng Ranchu</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content"> 
+                    <h4>ĐỘNG VẬT CẢNH</h4>
+                    <hr>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-12 ">
+                            <img src="assets/img/chim.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Chim Yến Phụng</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12 ">
+                            <img src="assets/img/vit.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Vịt Uyên Ương</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12 ">
+                            <img src="assets/img/bocau.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Chim bồ câu</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content"> 
+                    <h4>TĨNH VẬT CẢNH</h4>
+                    <hr>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-12 ">
+                            <img src="assets/img/go.jpg" alt="" class="post-image">
+                            <h3 class="post-title">Gỗ Lũa</h3>
+                            <div class="post-price">
+                                <a href="#">Giá: Liên hệ</a>
+                            </div>                        
+                            <div class="post-category">
+                                <a href="#"> ĐỌC TIẾP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h4>THỊ TRƯỜNG, ĐÀO TẠO, CHUYỂN GIAO</h4>
+                <hr>
+                <h4>THÔNG TIN KHCN</h4>
+                <hr>
+                <h4>ĐỐI TÁC - KHÁCH HÀNG</h4>
+                <hr>
+                <div class="row">
+                    <ul class="post-list">
+                        <li>
+                            <div class="post-logo">
+                                <a href="https://nonghoc.vnua.edu.vn/" target="_blank">
+                                    <img src="assets/img/logo1.png" width="100" height="100">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post-logo">
+                                <a href="http://www.khuyennongvn.gov.vn/" target="_blank">
+                                    <img src="assets/img/logo2.png" width="100" height="100">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post-logo">
+                                <a href="http://skhcn.thanhhoa.gov.vn/" target="_blank">
+                                    <img src="assets/img/logo3.png" width="100" height="100">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                        <!--
+                        <div class="container-fluid padding">
+                            <div class="row text-center padding">
+                                <div class="col-12 social padding">
+                                    <div class="post-logo">
+                                        <a href="https://nonghoc.vnua.edu.vn/" target="_blank">
+                                            <img src="assets/img/logo1.png" width="100" height="100">
+                                        </a>
+                                    </div>
+                                    <div class="post-logo">
+                                        <a href="http://www.khuyennongvn.gov.vn/" target="_blank">
+                                            <img src="assets/img/logo2.png" width="100" height="100">
+                                        </a>
+                                    </div>
+                                    <div class="post-logo">
+                                        <a href="http://skhcn.thanhhoa.gov.vn/" target="_blank">
+                                            <img src="assets/img/logo3.png" width="100" height="100">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    -->
+                </div> 
+                
+            </div>
+        </content>
+        <footer>
+            <div class="container-fluid d-block">
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <h5>VIỆN SINH VẬT CẢNH</h5>
+                        <hr class="light">
+                            <p>Địa chỉ: Học viện Nông nghiệp Việt Nam - Trâu Quỳ - Gia Lâm - Hà Nội.</p>
+                            <p>Website: <a href="https://ioos.vnua.edu.vn" target="_blank">https://www.facebook.com/ioos.vnua.edu.vn</a></p>
+                            <p>Email: <a href="sinhvatcanh@vnua.edu.vn" target="_blank">sinhvatcanh@vnua.edu.vn</a></p>
+                            <p>Điện thoại:</p>
+                        <div class="container-fluid padding">
+                            <div class="row text-center padding">
+                                <div class="col-12 social padding">
+                                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+                                    <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 iframe">
+                        <iframe width="300px" height="280px" src="https://map.coccoc.com/map/3820691647575680"></iframe>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+    
+</html>
